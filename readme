@@ -1,6 +1,7 @@
 MODGEN
 Rust Module Surface Manager
-[https://github.com/neuxdotdev/modgen](https://github.com/neuxdotdev/modgen)
+
+https://github.com/neuxdotdev/modgen
 
 modgen is a command-line tool that recursively scans Rust source
 directories and generates or updates mod.rs files. It automatically adds
@@ -29,7 +30,7 @@ INSTALLATION
 
 Install directly from the Git repository using Cargo:
 
-cargo install --git [https://github.com/neuxdotdev/modgen](https://github.com/neuxdotdev/modgen)
+cargo install --git https://github.com/neuxdotdev/modgen
 
 The binary will be installed into ~/.cargo/bin. Ensure this directory is in your PATH.
 
