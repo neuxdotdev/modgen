@@ -1,0 +1,14 @@
+[package]
+name = "modgen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+blake3 = "1.8.3"
+clap = { version = "4.5.60", features = ["derive"] }
+serde = { version = "1.0.228", features = ["derive"] }
+toml = "1.0.3"
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.22", features = ["env-filter", "fmt"] }
+walkdir = "2.5.0"

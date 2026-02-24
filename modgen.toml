@@ -1,0 +1,5 @@
+ignore = ["target", ".git", "tests", "benches"]
+reexport = true
+marker_start = "// modgen:start"
+marker_end = "// modgen:end"
+hash_algo = "Blake3"
